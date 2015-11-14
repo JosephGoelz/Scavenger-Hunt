@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18099B581BF73FBF0058A2D6 /* ScavengerHuntItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18099B571BF73FBF0058A2D6 /* ScavengerHuntItem.swift */; settings = {ASSET_TAGS = (); }; };
 		187236C41BF7100E00227190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187236C31BF7100E00227190 /* AppDelegate.swift */; };
 		187236C61BF7100E00227190 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187236C51BF7100E00227190 /* AddViewController.swift */; };
 		187236C91BF7100E00227190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187236C71BF7100E00227190 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18099B571BF73FBF0058A2D6 /* ScavengerHuntItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScavengerHuntItem.swift; sourceTree = "<group>"; };
 		187236C01BF7100E00227190 /* Scavenger Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scavenger Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		187236C31BF7100E00227190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		187236C51BF7100E00227190 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				187236C31BF7100E00227190 /* AppDelegate.swift */,
 				187236C51BF7100E00227190 /* AddViewController.swift */,
 				187236C71BF7100E00227190 /* Main.storyboard */,
+				18099B571BF73FBF0058A2D6 /* ScavengerHuntItem.swift */,
 				187236F11BF7298400227190 /* ListViewController.swift */,
 				187236CA1BF7100E00227190 /* Assets.xcassets */,
 				187236CC1BF7100E00227190 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				187236C61BF7100E00227190 /* AddViewController.swift in Sources */,
 				187236C41BF7100E00227190 /* AppDelegate.swift in Sources */,
+				18099B581BF73FBF0058A2D6 /* ScavengerHuntItem.swift in Sources */,
 				187236F21BF7298400227190 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +491,7 @@
 				187236EA1BF7100E00227190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187236EB1BF7100E00227190 /* Build configuration list for PBXNativeTarget "Scavenger HuntTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				187236ED1BF7100E00227190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187236EE1BF7100E00227190 /* Build configuration list for PBXNativeTarget "Scavenger HuntUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				187236F01BF7100E00227190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

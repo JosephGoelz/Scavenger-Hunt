@@ -31,7 +31,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="t3G-qM-idp">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="M4d-JL-LgK"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="M4d-JL-LgK">
+                            <connections>
+                                <action selector="cancel:" destination="BYZ-38-t0r" id="Jpn-1T-FVx"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="j1K-TW-aX2"/>
                     </navigationItem>
                 </viewController>

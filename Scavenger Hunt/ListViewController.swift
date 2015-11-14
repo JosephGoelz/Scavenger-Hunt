@@ -11,7 +11,9 @@ import UIKit
 
 class ListViewController: UITableViewController{
     
-    var itemsList = ["Cat", "Bird", "Soylent"]
+    var itemsList = [ScavengerHuntItem(name: "🏀"),
+                    ScavengerHuntItem(name: "⛄️"),
+                    ScavengerHuntItem(name: "Basketball Snowman")]
     
     //autocomplete has all the protecoll methods
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -23,7 +25,9 @@ class ListViewController: UITableViewController{
         
         let cell = tableView.dequeueReusableCellWithIdentifier("ListViewCell", forIndexPath: indexPath)
         
-        cell.textLabel?.text = itemsList[indexPath.row]
+        let item = itemsList[indexPath.row]
+        
+        cell.textLabel?.text = item.name
         
         return cell
         
